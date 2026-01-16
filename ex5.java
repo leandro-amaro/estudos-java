@@ -19,7 +19,7 @@ public class ex5 {
 
         total = (n1 * preco1) + (n2 * preco2);
 
-        System.out.printf("VALOR A PAGAR: R$ %.2f", total);
+        System.out.printf("VALOR A PAGAR: R$ %.2f%n", total);
 
 
 
