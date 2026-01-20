@@ -2,36 +2,34 @@ import java.util.Scanner;
 public class Condc5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double hotDog = 4.00;
-        double xSalada = 4.50;
-        double xBacon = 5.00;
-        double torradaS = 2.00;
-        double refri = 1.50;
-        double total;
+        double total = 0;
+        double preco = 0;
         int code, quantidade;
         code = sc.nextInt();
         quantidade = sc.nextInt();
 
-        if(code == 1) {
-            total = hotDog * quantidade;
-            System.out.printf("Total: R$ %.2f%n", total);
-        }
-        else if(code == 2) {
-            total = xSalada * quantidade;
-            System.out.printf("Total: R$ %.2f%n", total);
-        }
-        else if(code == 3) {
-            total = xBacon * quantidade;
-            System.out.printf("Total: R$ %.2f%n", total);
-        }
-        else if (code == 4) {
-            total = torradaS * quantidade;
-            System.out.printf("Total: R$ %.2f%n", total);
-        }
-        else if(code == 5) {
-            total = refri * quantidade;
-            System.out.printf("Total: R$ %.2f%n", total);
-        }
+       switch (code) {
+           case 1:
+               preco = 4.00;
+               break;
+           case 2:
+               preco = 4.50;
+               break;
+           case 3:
+               preco = 5.00;
+               break;
+           case 4:
+               preco = 2.00;
+               break;
+           case 5:
+               preco = 1.50;
+               break;
+           default:
+               System.out.println("Código inválido!");
+               return;
+       }
+       total = preco * quantidade;
+       System.out.printf("TOTAL = R$ %.2f%n", total);    
         sc.close();
     }
 }
