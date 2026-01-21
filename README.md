@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu repositório de estudos! Aqui concentro minha evolução na linguagem Java, desde a lógica de programação até conceitos de Orientação a Objetos.
 
-Este repositório acompanha meu progresso no curso **Java Completo**, resolvendo desafios práticos e algoritmos.
+Este repositório acompanha meu progresso no curso **Java Completo**, resolvendo desafios práticos, algoritmos e refatorando códigos.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -24,8 +24,17 @@ Resolução de problemas lógicos matemáticos, incluindo:
 * ✅ **Intervalos Numéricos:** Validação de intervalos matemáticos `[0,25]`, `(25,50]`, etc.
 * ✅ **Cálculo de Imposto de Renda:** Algoritmo complexo com faixas de tributação progressiva (Imposto de Renda de Lisarb - Beecrowd).
 
-### 3. Próximos Passos (Em andamento)
-* Estruturas Repetitivas (`while`, `for`).
+### 3. Estruturas Repetitivas (`while`)
+Controle de fluxo e loops indeterminados.
+* ✅ **Lógica de Repetição:** Uso de acumuladores e contadores.
+* ✅ **Simulador de Caixa Eletrônico (ATM):** *Projeto de Destaque*
+    * **Migração de lógica C para Java.**
+    * Implementação de sistema de Login com limite de tentativas (flags booleanas).
+    * Menu interativo utilizando `switch-case` aninhado em loops `while`.
+    * Validação de saldo e operações financeiras.
+
+### 4. Próximos Passos (Em andamento)
+* Estruturas Repetitivas Determinadas (`for`).
 * Programação Orientada a Objetos (Classes, Atributos, Métodos).
 * Construtores, `this`, Sobrecarga e Encapsulamento.
 
